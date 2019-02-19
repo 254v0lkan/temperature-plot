@@ -16,3 +16,10 @@ Go to http://localhost:4000 to see the graph. Or you can open index.html to see 
 ![Temperature Plot](temperature-plot.gif)
 
 Feel free to fork!
+
+
+### Things to work on
+Store temperature in database, You can use MongoDB, Mongoose to do so.
+Show average temperature of last 3 hours 
+As user loads the index.html page, send last 15 temperature data points and shift it as new data comes. You can use io.on(‘connection’, (socket) => {…}); to do this.
+Feel free to add anything you want!
